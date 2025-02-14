@@ -4,6 +4,8 @@ import UseOfHooks from "../src/projects/hooks_use_state";
 import Button from "../src/projects/button";
 import UseEffect from "../src/projects/useEffect";
 import DropDown from "../src/projects/DropdownMenu";
+import UseRefFunction from "../src/projects/useRef";
+import UseRefFunction2 from "../src/projects/useRefExample2";
 
 function app() {
   return (
@@ -14,6 +16,8 @@ function app() {
       <Button />
       <UseEffect />
       <DropDown />
+      <UseRefFunction />
+      <UseRefFunction2 />
     </div>
   );
 }
