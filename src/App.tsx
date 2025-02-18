@@ -6,6 +6,7 @@ import UseEffect from "../src/projects/useEffect";
 import DropDown from "../src/projects/DropdownMenu";
 import UseRefFunction from "../src/projects/useRef";
 import UseRefFunction2 from "../src/projects/useRefExample2";
+import UseReducer from "../src/projects/counter";
 
 function app() {
   return (
@@ -18,6 +19,7 @@ function app() {
       <DropDown />
       <UseRefFunction />
       <UseRefFunction2 />
+      <UseReducer />
     </div>
   );
 }
