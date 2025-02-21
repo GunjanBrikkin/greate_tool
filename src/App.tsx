@@ -9,6 +9,10 @@ import UseRefFunction2 from "../src/projects/useRefExample2";
 import UseReducer from "../src/projects/counter";
 import { List } from "../src/projects/list";
 import { RandomNumber } from "./projects/restrictions";
+import Toast from "./projects/toast";
+import "./App.css";
+import ButtonStyle from "./projects/buttonStyle";
+import Useprobsfromothertsx from "./projects/useprobsfromothertsx";
 
 function app() {
   return (
@@ -46,6 +50,9 @@ function app() {
       /> */}
 
       <RandomNumber value={1} isPositive={true} />
+      <Toast position="center" />
+      <ButtonStyle variant="primary">Primary Button</ButtonStyle>
+      <Useprobsfromothertsx />
     </div>
   );
 }
